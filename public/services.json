@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "name": "Web Development",
+        "price": "300",
+        "description":"Responsive Web Design. React Web App Development, MERN Stack Web App Development",
+             
+        "img": "web.jpg"
+    },
+    {
+        "id": 2,
+        "name": "System & Sofwere Development",
+        "price": "400",
+        "description": "System Installation. System Maintanance. Software Development",
+        "img": "sys.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Network Development",
+        "price": "350",
+        "description": "Network Design. Network Device Installation. Newtork Maintance.",
+        "img": "net.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Cloud Computing",
+        "price": "520",
+        "description": "My cloud computing services: Infrastructure-as-a-Service (IaaS), Platforms-as-a-Service (PaaS), and Software-as-a-Service (SaaS).",
+        "img": "clo.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Bug Fixin",
+        "price": "550",
+        "description": "Fixing bugs is a necessary part of every digital project. But as you're making fixes, it's important to ask yourself, “Am I actually solving the problem, or just resolving the immediate symptom?” If you don't understand the source of your bugs, chances are you aren't making the best decisions on how to deal with them.",
+        "img": "bug.jpg"
+    },
+    {
+        "id": 6,
+        "name": "COMPLETE ANALYSIS",
+        "price": "600",
+        "description": "Computer systems analysts research the hardware and software that are part of an organization's computer systems in addition to the ways in which the systems are being used.",
+        "img": "ana.jpg"
+    }
+]
