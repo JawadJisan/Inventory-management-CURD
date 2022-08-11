@@ -49,7 +49,7 @@ export default function UpdateModal({ id, setIsReload, isReload }) {
 
 
     // console.log(userName, textData);
-    fetch(`http://localhost:4000/note/${id}`, {
+    fetch(`https://enigmatic-meadow-29470.herokuapp.com/note/${id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",

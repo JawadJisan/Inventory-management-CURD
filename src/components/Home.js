@@ -13,7 +13,7 @@ const Home = () => {
 
   useEffect(() => {
 
-    fetch("http://localhost:4000/notes")
+    fetch("https://enigmatic-meadow-29470.herokuapp.com/notes")
       .then(res => res.json())
       .then(data => setNotes(data))
 
@@ -28,7 +28,7 @@ to handle search by query, and it will be passed as props to header
     event.preventDefault();
     const queryText = event.target.searchText.value;
     if (queryText) {
-      fetch(`http://localhost:4000/notes?userName=${queryText}`)
+      fetch(`https://enigmatic-meadow-29470.herokuapp.com/notes?userName=${queryText}`)
         .then(res => res.json())
         .then(data => setNotes(data))
     }
@@ -38,7 +38,7 @@ to handle search by query, and it will be passed as props to header
   to delete a note, and it will be passed as props to NoteCard that will be triggered using delete button.
    */
   const handleDelete = (id) => {
-    fetch(`http://localhost:4000/note/${id}`, {
+    fetch(`https://enigmatic-meadow-29470.herokuapp.com/note/${id}`, {
       method: 'DELETE',
     })
       .then(res => res.json())
@@ -52,7 +52,7 @@ to handle search by query, and it will be passed as props to header
     to update data, and it will be passed as props to NoteCard and 
    later it will be passed to Update modal using props.
  */
-  // http://localhost:4000/note/6269426e93bbf832d4e5f9
+  // https://enigmatic-meadow-29470.herokuapp.com/note/6269426e93bbf832d4e5f9
 
   /*
 4.  there will be a function named handlePost
@@ -66,7 +66,7 @@ to post data to backend, and it will be passed as props to InputFrom.
     const description = event.target.description.value;
     console.log({ productName, productType, price, description })
 
-    fetch('http://localhost:4000/note', {
+    fetch('https://enigmatic-meadow-29470.herokuapp.com/note', {
       method: 'POST',
       body: JSON.stringify({ productName, productType, price, description }),
       headers: {
