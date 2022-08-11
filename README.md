@@ -2,7 +2,7 @@
 Inventory Management System || CRUD
 
 # Website:
-https://inventory-management-crud.netlify.app
+https://willowy-sawine-08b520.netlify.app/
 
 
 
